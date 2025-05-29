@@ -1,0 +1,81 @@
+* {
+    background-color: black;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    background-color: black !important;
+}
+
+.container {
+    background-color: black !important;
+}
+
+.navbar-toggler {
+    border-color: rgb(255, 255, 255)
+}
+
+.logo-size {
+    width: 10rem;
+    aspect-ratio: 1;
+}
+
+.banner-img {
+    width: 30rem;
+    aspect-ratio: 1;
+    margin-left: 15%;
+}
+
+.nav-link-color:hover {
+    color: rgb(17, 17, 212) !important;
+}
+
+.project-card {
+    width: 60rem;
+}
+.skills{
+    background-color: black;
+}
+.form-design::placeholder{
+    color: rgba(245, 245, 245, 0.35) !important;
+}
+.form-design{
+    caret-color: white;
+}
+.send-btn{
+    background-color: rgb(108, 117, 125);
+    height: 3rem;
+    width: 25rem;
+}
+.send-btn:hover{
+    background-color: rgba(0, 0, 255, 0.915) !important;
+}
+.contact-us{
+    border: 1px solid white;
+    width: 30rem !important;
+    padding: 3rem;
+    box-shadow: 2px 2px 15px white;
+}
+hr{
+    height: 1px;
+    margin: 1rem 0;
+    color: rgba(255, 255, 255, 0.832);
+}
+@media (max-width:767px) {
+    .banner-img {
+        margin-left: 0;
+    }
+
+    .project-card {
+        width: fit-content;
+    }
+    .contact-us{
+        width: fit-content !important;
+    }
+    .send-btn{
+        width: 70%;
+    }
+}
